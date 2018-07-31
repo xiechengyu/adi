@@ -1,0 +1,177 @@
+ *{
+        margin: 0;
+        padding: 0;
+    }
+    /*body{max-width: 640px;margin: auto 0; }*/
+    #lunbo ul li{width:100%;list-style: none;width:1530px; height:580px;text-align: center;}
+    #lunbo ul li:not(:first-child){display: none;}
+  *{
+    	margin: 0;
+    	padding: 0;
+    }
+    .header {
+		position: fixed;
+		width: 100%;
+		height: 80px;
+    	background-color: #000;
+    	z-index: 5;
+    }
+	
+	.header .logo {
+		padding-top: 22px;
+		padding-left: 50px;
+	}
+	.header .classification {
+		position: absolute;
+		
+		width: 39%;
+		height: 50px;
+		line-height: 50px;
+		margin-left: 150px;
+		margin-top:-39px;
+		/*background-color: pink;*/
+	}
+	.classification a {
+		
+		color: #fff;
+		
+		text-align: center;
+		font-weight: bold;
+		font-size: 19px;
+		text-decoration: none;
+		
+	}
+	.classification a:hover{
+		color: #ccc;
+	}
+    .classification ul li{
+		
+		float: left;
+		
+		list-style: none;
+		/*border:1px;*/
+		/*border: 1px solid #000;*/
+		padding-left: 8px; 
+		padding-right: 8px;
+	}
+
+	/*.classification .class1{
+		
+
+		border-right:  1px solid #fff; 
+	}
+	.classification .class2{
+		
+
+		border-right:  1px solid #fff; 
+	}
+	.classsification .class1:hover{
+		cursor: pointer;
+		color: #000;
+		background-color: #fff;
+	}*/
+
+	.header .sign{
+		
+		float: right;
+
+		width:22%;
+		height: 80px;
+		/*background-color: yellow;*/
+		
+		float: right;
+		margin-top: -69px;
+		margin-right: 60px; 
+
+	}
+	.sign .sign1{
+		position: absolute;
+		width: 338px;
+		height:32px;
+		/*background-color: purple;*/
+	}
+	.sign1 ul li{
+		
+		display: inline-block;
+		text-align: center;
+		
+	}
+	.sign1 a{
+		 
+		padding-top: 8px;
+		text-decoration: none;
+	}
+	.sign1 .box1{
+		
+		float: left;
+		width: 75px;
+		height: 32px;
+		border-right:  1px solid #fff;
+		color: #ccc;
+
+	}
+	.sign1 .box2{
+		float: left;
+		width: 75px;
+		height: 32px;
+		border-right:  1px solid #fff;
+		color: #fff;
+		margin-left: -4.5px;
+	}
+	.box2:hover{
+		cursor: pointer;
+		background-color: #fff; 
+		color: #000;
+	}
+	.sign1 .box3{
+		float: left;
+		width: 88px;
+		height: 32px;
+		/*border-right:  1px solid #fff;*/
+		color: #ccc;
+	}
+	
+	.sign1 .box4{
+		float: right;
+		width: 75px;
+		height: 32px;
+		/*border-left:  1px solid #fff;*/
+		color: #ccc;
+	}
+
+	.sign .search{
+		position: absolute;
+		margin-top: 34px;
+		
+		width: 338px;
+		height:48px;
+
+		
+	}
+	.search .sea1{
+		position: relative;
+		left:250px;
+		right: 0;
+	
+	}
+	.sea1 i:hover{
+		cursor: pointer;
+		background-color: #02B7CD; 
+		color: #fff;
+	}
+	.sea1 i{
+		display: inline-block;
+		padding-top: 15px;
+		width: 40px;
+		height: 30px;
+		color: #fff;
+		text-align: center;
+	}
+	.search .sea2{
+		position: relative;
+		left: 30px;
+		top: 0px;
+	}
+
+	#lunbo ul li{width:100%;list-style: none;width:1530px; height:580px;text-align: center;padding-top: 80px;}
+    #lunbo ul li:not(:first-child){display: none;}

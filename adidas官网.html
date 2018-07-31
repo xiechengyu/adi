@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+	<title>Adidas</title>
+	<link rel="stylesheet" href="FontAweaome\font-awesome-4.7.0\css\font-awesome.css" >
+	<link rel="stylesheet" href="FontAweaome\font-awesome-4.7.0\css\font-awesome.min.css">
+	<link rel="stylesheet" href="qk.css">
+	<link rel="stylesheet" href="01.css">
+	<link rel="stylesheet" href="02.css">
+	<link rel="stylesheet" href="03.css">
+
+</head>
+<body>
+	<div class="header">
+			<div class="logo"><a href="https://www.adidas.com.cn/index?locale=zh_CN"><img src="img/logo.png" alt="logo"
+				style="width: 63px;height: 43px;"></a>
+			</div>
+			<div class="sign">
+				<div class="sign1">
+				<ul>
+					<li><a href="https://www.adidas.com.cn/orderGuest?locale=zh_CN" class="box1">订单追踪</a></li>
+					<li><a href="https://www.adidas.com.cn/index?locale=zh_CN" class="box2">邮件订阅</a></li>
+					<li><a href="http://chat8.live800.com/live800/chatClient/chatbox.jsp?companyID=804169&jid=8744910436&enterurl=http%3A%2F%2Fprofile%2Elive800%2Ecom%2Fprofile%2Fpreview%2Ejsp%3FiconScripts%3D%26type%3D0%26configId%3D151124%26chatserver%3Dhttp%253A%252F%252Fchat8%2Elive800%2Ecom%252Flive800%26companyId%3D804169%26jid%3D8744910436%26monitorId%3D151123&pagetitle=%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88&pagereferrer=&firstEnterUrl=http%3A%2F%2Fprofile%2Elive800%2Ecom%2Fprofile%2Fpreview%2Ejsp%3FiconScripts%3D%26type%3D0%26configId%3D151124%26chatserver%3Dhttp%253A%252F%252Fchat8%2Elive800%2Ecom%252Flive800%26companyId%3D804169%26jid%3D8744910436%26monitorId%3D151123&lan=zh&tm=1489566278790" class="box3">在线客服<i class="fa fa-commenting-o" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.adidas.com.cn/member/login?locale=zh_CN" class="box4">登录<i class="fa fa-user"></i></a></li>
+				</ul>
+				</div>
+				<div class="search">
+					<table>
+					<tr>
+						<td>
+						<div class="sea1" ><a href="https://www.adidas.com.cn/shoppingcart?locale=zh_CN"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></dic>
+						</td>
+						<td>
+						<div class="sea2"><input type="search"  id="search1" placeholder="搜索" style="width: 160px;height: 32px;"></div>
+						</td>
+					</tr>
+					</table>
+				</div>
+			</div>
+			<div class="classification">
+				
+				<ul>
+					<li  class="c1"><a href="https://www.adidas.com.cn/men">男子</a></li>
+					<li  class="c2"><a href="https://www.adidas.com.cn/women">女子</a></li>
+					<li  class="c3"><a href="https://www.adidas.com.cn/kids">童装</a></li>
+               </ul>
+				<ul>	
+					<li class="c4"><a href="">运动</a></li>
+					<li class="c5"><a href="">品牌</a></li>
+				</ul>	
+				<ul>	
+					<li class="c6"><a href="https://www.adidas.com.cn/customize">miadidas定制</a></li>
+					<li class="c7"><a href="https://www.adidas.com.cn/campaign/worldcup">2018世界杯<i class="fa fa-h-square" aria-hidden="true" style="color: #1E9E74;width: 30px;height: 30px;"></i></a></li>
+				</ul>
+			</div>
+		</div>	
+
+		<div id="lunbo">
+    <ul>
+        <li><a href="https://www.adidas.com.cn/football_realmadrid?cm_sp=SLOT-1.1_KV-REALMADRID_BANNER"><img src="img/a1.jpg" alt="huangjia" style="width: 100%;height: 480px;"></a></li>
+        <li><a href="https://www.adidas.com.cn/adidasneo_ss_liverestless?sp=adidas%20neo-May&cm_sp=SLOT-1.2_KV-ADIDAS-NEO-SS-LIVERESTLESS_BANNER"><img src="img/a2.jpg" alt="dlrb" style="width: 100%;height: 480px;"></a></li>
+        <li><a href="https://www.adidas.com.cn/originals_summer?sp=Originals-SUMMER&cm_sp=SLOT-1.3_KV-ORIGINALS-SUMMER_BANNER"><img src="img/a3.jpg" alt="wang" style="width: 100%;height: 480px;"></a></li>
+        <li><a href="https://www.adidas.com.cn/running_clima?sp=running_clima&cm_sp=SLOT-1.4_KV-RN-CLIMA_BANNER"><img src="img/a4.jpg" alt="peng" style="width: 100%;height: 480px;"></a></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    //因为使用了document，所以js需要放在需要执行的代码下面生效才能生效
+    var li=document.getElementById('lunbo').getElementsByTagName("li");
+    var num=0;
+    var len=li.length;
+
+    setInterval(function(){
+        li[num].style.display="none";
+        num=++num==len?0:num;
+        li[num].style.display="inline-block";
+
+    },3000);//切换时间
+</script>
+
+<!-- 
+body -->
+
+
+<div class="content">
+		<div class="top">
+			<ul class="i">
+				<li class="i1">
+					<a href="https://www.adidas.com.cn/campaign/worldcup">
+     					<span><img src="img/worldcup470-264.jpg" alt="" width="468" height="230" ></span>
+     					<h2>由我创造</h2>
+     					<h4>立即选购2018世界杯商品</h4>
+     				</a> 
+     			</li>
+				<li class="i2">
+					<a href="https://www.adidas.com.cn/item/DN6901">
+						<span><img src="img/470-264bogeba1968.jpg" alt="" width="468" height="230"></span>
+						<h2>曼彻斯特联队1968复古球衣</h2>
+						<h4>立即选购</h4>
+					</a>
+				</li>
+			</ul>
+			<ul class="v">
+				<li class="v1">
+					<a href="https://www.adidas.com.cn/campaign/originals_icon" target="_blank">
+						<span><video src="vid/uNDs2qDaDq-30.mp4" width="468" height="261" autoplay  loop muted></span>
+						<h2>忠于原创 经典不朽</h2>
+						<h4>立即选购</h4>
+					</a>
+					</video>
+				</li>
+				<li class="v2">
+					<a href="https://www.adidas.com.cn/campaign/training_summerattack" target="_blank">
+						<span><video src="vid/ueCuyoVRqb-30.mp4" width="468" height="261" autoplay  loop muted></video></span>
+						<h2>夏一刻 型动</h2>
+						<h4>立即选购</h4>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="middle">
+			<div class="head1"><h1>本月主推</h1></div>
+			<ul class="foot1">
+				<li class="i3">
+					<a href="https://www.adidas.com.cn/campaign/worldcup">
+     					<span><img src="img/15244772471179356_230X230.jpg" alt="" height="230" width="230"></span>
+     					<h3>NMD_R1 STLT PK 经典鞋</h3>
+     					<p> ¥1,499</p>
+     				</a>
+				</li>
+				<li class="i4">
+					<a href="https://www.adidas.com.cn/campaign/worldcup">
+     					<span><img src="img/15233585815995529_230X230.jpg" alt="" height="230" width="230"></span>
+     					<h3>SUPERSTAR SLIPON W 经典鞋</h3>
+     					<p> ¥799</p>
+     				</a>
+				</li>
+				<li class="i5">
+					<a href="https://www.adidas.com.cn/campaign/worldcup">
+     					<span><img src="img/15102183489679234_230X230.jpg" alt="" height="230" width="230"></span>
+     					<h3>STAN SMITH 经典鞋</h3>
+     					<p> ¥799</p>
+     				</a> 
+				</li>
+				<li class="i6">
+					<a href="https://www.adidas.com.cn/campaign/worldcup">
+     					<span><img src="img/15239259181039893_230X230.jpg" alt="" height="230" width="230"></span>
+     					<h3>CLIMACOOL vent m 跑步鞋</h3>
+     					<p> ¥929</p>
+     				</a> 
+				</li>
+			</ul>
+		</div>
+		<div class="bottom">
+			<div class="head2"><h1>本周热销</h1></div>
+			<ul class="foot2">
+				<li class="i7">
+					<a href="https://www.adidas.com.cn/campaign/worldcup">
+     					<span><img src="img/15212027537913012_230X230.jpg" alt="" height="230" width="230"></span>
+     					<h3>STAN SMITH 经典鞋</h3>
+     					<p> ¥899</p>
+     				</a> 
+				</li>
+				<li class="i8">
+					<a href="https://www.adidas.com.cn/campaign/worldcup">
+     					<span><img src="img/15102183489679234_230X230.jpg" alt="" height="230" width="230"></span>
+     					<h3>STAN SMITH 经典鞋</h3>
+     					<p> ¥799</p>
+     				</a> 
+				</li>
+				<li class="i9">
+					<a href="https://www.adidas.com.cn/campaign/worldcup">
+     					<span><img src="img/1525253266563404_230X230.jpg" alt="" height="230" width="230"></span>
+     					<h3>SUPERSTAR 经典鞋</h3>
+     					<p> ¥799</p>
+     				</a>
+				</li>
+				<li class="i10">
+					<a href="https://www.adidas.com.cn/campaign/worldcup">
+     					<span><img src="img/15257019626722107_230X230.jpg" alt="" height="230"  width="230"></span>
+     					<h3>adidas neo ADILETTE SHOWER 拖鞋</h3>
+     					<p> ¥229</p>
+     				</a>
+     				
+				</li>
+			</ul>
+		</div>
+	</div>
+
+<!-- footer -->
+
+
+<div class="footer">
+		<div class="footer-top">
+			<ul class="c-cont">
+				<li class="c-cont-1">联系我们</li>
+				<li class="c-cont-2">
+					<div class="p-bottom">
+						<div><a href="http://chat8.live800.com/live800/chatClient/chatbox.jsp?companyID=804169&jid=8744910436&enterurl=http%3A%2F%2Fprofile%2Elive800%2Ecom%2Fprofile%2Fpreview%2Ejsp%3FiconScripts%3D%26type%3D0%26configId%3D151124%26chatserver%3Dhttp%253A%252F%252Fchat8%2Elive800%2Ecom%252Flive800%26companyId%3D804169%26jid%3D8744910436%26monitorId%3D151123&pagetitle=%E6%95%88%E6%9E%9C%E9%A2%84%E8%A7%88&pagereferrer=&firstEnterUrl=http%3A%2F%2Fprofile%2Elive800%2Ecom%2Fprofile%2Fpreview%2Ejsp%3FiconScripts%3D%26type%3D0%26configId%3D151124%26chatserver%3Dhttp%253A%252F%252Fchat8%2Elive800%2Ecom%252Flive800%26companyId%3D804169%26jid%3D8744910436%26monitorId%3D151123&lan=zh&tm=1489566278790" target="_blank">
+							<img class="c-c-2-img" src="img\contact1.png"><p class="c-c-2-p">在线客服</p></a>
+						</div>
+						<p class="remarks">(仅支持中文)</p>
+					</div>
+				</li>
+				<li class="c-cont-2" style="width: 113px;margin-right: 50px;">
+					<div class="p-bottom">
+						<div><img class="c-c-2-img" src="img\contact2.png"><p class="c-c-2-p" style="font-size: 12px;padding-top: 2px;">400-999-5999</p>
+						</div>
+						<p class="remarks">(仅支持中文)</p>
+					</div>
+				</li>
+				<li class="c-cont-2" style="width: 161px;margin-right:50px;">
+					<div class="p-bottom">
+						<div><img class="c-c-2-img" src="img\contact3.png" style="height:16px;"><p class="c-c-2-p" style="padding-top:1px;">service@adidas.com</p>
+						</div>
+						<p class="remarks" style="width:85px;">(中英文均支持)</p>
+					</div>
+				</li>
+				<li class="c-cont-2" style="width: 92px;margin-right:70px;">
+					<div class="p-bottom">
+						<div><img class="c-c-2-img" src="img\contact4.png"><p class="c-c-2-p" style="font-size:12px;padding-top:3px;">9:00-22:00</p>
+						</div>
+					</div>
+				</li>
+				<li class="c-cont-3">
+					<div class="p-bottom">
+						<a href="https://www.adidas.com.cn/orderGuest?locale=zh_CN" target="_blank" style="color:#fff;">订单追踪</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="footer-middle">
+			<div class="cont-top">
+				<div class="pr">
+					<dl>
+						<dt class="p-line1">产品</dt>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/shoes_all?locale=zh_CN" target="_blank">鞋类</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/clothing_all?locale=zh_CN" target="_blank">服装</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/accessories_all?locale=zh_CN" target="_blank">配件</a></dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/newarrivals?locale=zh_CN" target="_blank">新品上市</a></dd>
+					</dl>
+				</div>
+				<div class="pr">
+					<dl>
+						<dt class="p-line1">运动</dt>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/running_all?locale=zh_CN" target="_blank">跑步</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/training_all?locale=zh_CN" target="_blank">训练</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/football_all?locale=zh_CN" target="_blank">足球</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/basketball_all?locale=zh_CN" target="_blank">篮球</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/outdoor_all?locale=zh_CN" target="_blank">户外</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="pr">
+					<dl>
+						<dt class="p-line1">
+							<a class="a-b" href="https://www.adidas.com.cn/help/helpUs?locale=zh_CN" target="_blank">帮助中心</a>
+						</dt>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/employee/login?locale=zh_CN" target="_blank">关于员工</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/size?locale=zh_CN" target="_blank">尺码表</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/adiClub?locale=zh_CN" target="_blank">adiCLUB会员</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/location/storefinder?locale=zh_CN" target="_blank">门店查询</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas-group.com/en/?locale=zh_CN" target="_blank">关于我们</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/CSR/home?locale=zh_CN" target="_blank">企业社会责任</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/confirmed?locale=zh_CN" target="_blank">Confirmed app</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="pr">
+					<dl>
+						<dt class="p-line1">网站政策</dt>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/terms_condition?locale=zh_CN" target="_blank">使用条款</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/private_policy?locale=zh_CN" target="_blank">隐私声明</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/delivery_policy?locale=zh_CN" target="_blank">物流配送规则</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/return_policy?locale=zh_CN" target="_blank">退货规则</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/miadidasTC?locale=zh_CN" target="_blank">定制和印制服务条款</a>
+						</dd>
+						<dd class="p-line2">
+							<a class="a-b" href="https://www.adidas.com.cn/member/showAdiClubMemberLegal?locale=zh_CN" target="_blank">adiCLUB会员规则</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="concern">
+					<p class="p-line3">关注我们</p>
+						<a class="a-i" href="https://weibo.com/shopadidas?locale=zh_CN" target="_blank" title="微博" ><i class="fa fa-weibo"></i>
+						</a>
+						<div class="blank"></div>
+						<a class="a-i" href="" target="_blank" title="微信"><i class="fa fa-weixin"></i>
+						</a>
+				</div>
+
+				<ul class="payment">
+					<li class="pay1">我们接受下列付款方式：</li>
+					<li>
+						<img class="pay2" src="img\pay1.png" style="width:60px;">
+					</li>
+					<li>
+						<img class="pay2" src="img\pay2.png" style="width:95px;">
+					</li>
+					<li>
+						<img class="pay2" src="img\pay3.png" style="width:95px;">
+					</li>
+					<li>
+						<img class="pay2" src="img\pay4.png" style="width:85px;">
+					</li>
+				</ul>
+
+				<ul class="group-purchase">
+					<li class="gp-1" style="width:140px;">企业团购热线及邮箱：</li>
+					<li class="gp-1" style="width:175px;">团购热线：021-2525 6881</li>
+					<li class="gp-1" style="width:240px;">团购邮箱：adidas.b2b@adidas.com</li>
+					<li class="gp-1" style="width:175px;">（仅限采购金额10万以上）</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="f-bottom">
+				<ul class="f-bottom-left">
+					<li class="b-left-li" style="width:50px;">
+						<a class="b-left-a" href="https://www.adidas.com.cn/location-selector?locale=zh_CN">
+							<img class="b-l-a-img" src="img\footer-1.png">中国
+						</a>
+					</li>
+					<li class="b-left-li">
+						<a class="b-left-a" href="https://www.adidas.com.cn/private_policy?locale=zh_CN" target="_blank">隐私声明</a>
+					</li>
+					<li class="b-left-li">
+						<a class="b-left-a" href="https://www.adidas.com.cn/terms_condition?locale=zh_CN" target="_blank">使用条款</a>
+					</li>
+					<li class="b-left-li">
+						<a class="b-left-a" href="https://www.adidas.com.cn/siteMap?locale=zh_CN" target="_blank">网站地图</a>
+					</li>
+				</ul>
+				<ul class="f-bottom-right">
+					<li class="b-right-li">苏ICP备14048805号-1<a class="b-right-a" href="http://www.jsdsgsxt.gov.cn/mbm/entweb/elec/certView.shtml?siteId=bcf44f76c12e4a5588ae114fa1d6d0c9"><img class="b-r-a-img" src="img\footer2.png"></a>
+					</li>
+					<li class="b-right-li" style="width: 90px;">© 2017 adidas</li>
+					<li class="b-right-li" style="width: 195px;">
+						<a class="b-right-a" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32059002001401"><img class="b-r-a-img" src="img\footer3.png">苏公网安备 32059002001401号
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
